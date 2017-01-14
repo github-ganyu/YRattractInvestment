@@ -1,0 +1,31 @@
+@charset "utf-8";
+@media (max-width: 640px) {
+    .section .content p:first-child{font-size:14px;}
+    .section .title_icon{background: url("../style/img/liucheng.png")no-repeat;background-size: cover;}
+    .section .title_icon img{display: none;}
+    .section .content .text{line-height: 2;}
+    .section-b{padding: 0;padding-bottom: 20px}
+    .section-b .text{padding:0;}
+    .section-b .text ul{margin:0;}
+    .section-c img{height: 135px;}
+    .section-a .background-img{min-height: 600px;margin:0;position: static;}
+    .section-a .circular{width:320px;height:200px;margin:0 auto;background: none;border:none;position: static;}
+    .section-a .circular .circular-inner img:last-child,.section-a .circular .circular-inner h1{position: static;margin:0;margin-left:20px;}
+    .section-a .circular .circular-inner img:first-child{width: 50px;}
+    .section-a .circular .circular-inner img{position: static;display: block;margin: 0 auto;}
+    .section-a .circular .circular-inner h1{font-size:30px;margin-top:10px;text-align: center;margin-left:0;}
+    .section-a .circular-out{position:static;width:100%;height:0;}
+    .section-a .circular-out span button{margin-top: -11rem;}
+    .section-a .circular-out span:first-child,.section-a .circular-out span:nth-child(2)
+    ,.section-a .circular-out span:nth-child(3),.section-a .circular-out span:nth-child(4),
+    .section-a .circular-out span:nth-child(5),.section-a .circular-out span:nth-child(6),
+    .section-a .circular-out span:nth-child(7),.section-a .circular-out span:nth-child(8){width: 100px;height:100px;position: static;}
+    .section-a .circular-out span img{position: static;margin:20px 4px;}
+    .section-a .circular-out span:first-child,.section-a .circular-out span:nth-child(2)
+    ,.section-a .circular-out span:nth-child(3){margin-top:20%;margin-left:6%;margin-right: 2%;}
+    .section-a .circular-out span:nth-child(4),.section-a .circular-out span:nth-child(5),.section-a .circular-out span:nth-child(6){margin-top:5%;margin-left:6%;margin-right: 2%;}
+    .section-a .circular-out span:nth-child(7),.section-a .circular-out span:nth-child(8){display: none;}
+    .section-a .circular .circular-inner p{font-size:13px;}
+    .section-a .circular .circular-inner p{font-size: 13px!important;position: static;margin-top:15px;}
+    .section-b .text h2{font-size:20px!important;}
+}
