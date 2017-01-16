@@ -62,7 +62,7 @@ article.banner{padding-top:70px;}
 .section .title_icon .title-top div p:nth-child(2n+1){font-size:14px;color:#999999;text-align: center;}
 .section .title_icon .title-bottom div p:nth-child(2n){font-size:14px;color:#999999;text-align: center;}
 .section-a{padding-bottom:50px;}
-.section-a .background-img{background: url("../style/img/bg.png")no-repeat;padding:30px;background-size:cover;min-height:654px;}
+.section-a .background-img{background: url("../style/img/bg.png")no-repeat center center;padding:30px;background-size:cover;min-height:654px;}
 .section-a .background-img .position{position: relative;}
 .section-a .background-img aside p{color:#ffffff;padding-bottom:10px;font-weight: 100;}
 .section-a .background-img .left div:first-child{margin-left:11%;padding-top:75px;}
