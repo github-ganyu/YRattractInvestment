@@ -9,7 +9,7 @@ body{
 }
 body,div,p,a,h3,ul,li{
     margin:0;padding:0;
-    font-family:"微软雅黑" ;
+    font-family:"Microsoft YaHei" ;
     color:#444444;
 }
 a{text-decoration: none; font-size:16px;}
@@ -138,6 +138,7 @@ article.banner{padding-top:70px;}
     .section-a .background-img{background:url("../style/img/black.png")no-repeat center center;background-size:100%;min-height:240px;}
     .section-a{padding-bottom: 10px;}
     .section-b .text h2{padding-bottom:0;font-size:22px;}
+    .section-b .text p{text-indent:0em;}
     .section-c .row .col-md-4 .quote,.section-c .row .col-md-4 .clientsphoto{float:none;display: inline-block;vertical-align: middle;margin-top:20px;margin-left:20px;}
     .section-c .row .col-md-4 .quote{width:66%;}
     .section-d .row .col-md-4 h4{padding:5px 0;}
