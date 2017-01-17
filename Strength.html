@@ -97,31 +97,31 @@
             <h2 id="link" style="font-weight: 500;">会员店展示</h2>
             <ul class="row">
                 <li class="col-md-4">
-                    <img src="style/img/a.png"/>
+                    <img class="lazy" data-original="style/img/a.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/aa.png"/>
+                    <img class="lazy" data-original="style/img/aa.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/aaa.png"/>
+                    <img class="lazy" data-original="style/img/aaa.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/aaaa.png"/>
+                    <img class="lazy" data-original="style/img/aaaa.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/b.png"/>
+                    <img class="lazy" data-original="style/img/b.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/bbb.png"/>
+                    <img class="lazy" data-original="style/img/bbb.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/bb.png"/>
+                    <img class="lazy" data-original="style/img/bb.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/c.png"/>
+                    <img class="lazy" data-original="style/img/c.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/cc.png"/>
+                    <img class="lazy" data-original="style/img/cc.png"/>
                 </li>
             </ul>
         </div>
@@ -129,49 +129,49 @@
             <h2 id="link" style="font-weight: 500;">商品展示</h2>
             <ul class="row">
                 <li class="col-md-4">
-                    <img src="style/img/ccc.png"/>
+                    <img class="lazy" data-original="style/img/ccc.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/d.png"/>
+                    <img class="lazy" data-original="style/img/d.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/dd.png"/>
+                    <img class="lazy" data-original="style/img/dd.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/ddd.png"/>
+                    <img class="lazy" data-original="style/img/ddd.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/dddd.png"/>
+                    <img class="lazy" data-original="style/img/dddd.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/e.png"/>
+                    <img class="lazy" data-original="style/img/e.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/ee.png"/>
+                    <img class="lazy" data-original="style/img/ee.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/eee.png"/>
+                    <img class="lazy" data-original="style/img/eee.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/eeee.png"/>
+                    <img class="lazy" data-original="style/img/eeee.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/gg.png"/>
+                    <img class="lazy" data-original="style/img/gg.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/ggg.png"/>
+                    <img class="lazy" data-original="style/img/ggg.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/r.png"/>
+                    <img class="lazy" data-original="style/img/r.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/rr.png"/>
+                    <img class="lazy" data-original="style/img/rr.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/rrr.png"/>
+                    <img class="lazy" data-original="style/img/rrr.png"/>
                 </li>
                 <li class="col-md-4">
-                    <img src="style/img/rrrr.png"/>
+                    <img class="lazy" data-original="style/img/rrrr.png"/>
                 </li>
             </ul>
         </div>
@@ -202,6 +202,8 @@
 <script src="lib/jquery.js"></script>
 <script src="lib/bootstrap.min.js"></script>
 <script src="lib/current.js"></script>
+<script src="lib/jquery.lazyload.js?v=1.9.1"></script>
+<script src="lib/shiv.js"></script>
 <script src="http://www.lanrenzhijia.com/ajaxjs/lanrenzhijia.js"></script>
 <script src="http://zeptojs.com/zepto.min.js"></script>
 <script>
@@ -215,6 +217,11 @@
             img_path : 'http://demo.lanrenzhijia.com/2014/service1119/images/lanrenzhijia.jpg',	//设置图片路径
             qq : '123456789',	//设置QQ号码
         });
+    });
+    $(function() {
+
+        $("img.lazy").lazyload({effect: "fadeIn"});
+
     });
 </script>
 </html>

@@ -96,11 +96,11 @@
         <div class="text">
             <h2>元融心中理想的加盟商</h2>
         </div>
-        <img src="style/img/jiameng1.png"/>
+        <img class="lazy" data-original="style/img/jiameng1.png"/>
     </div>
 </section>
 <section class="section-c">
-    <img src="style/img/banner2.png"/>
+    <img class="lazy" data-original="style/img/banner2.png"/>
 </section>
 <section class="section-a">
     <div class="container-fulid">
@@ -429,6 +429,8 @@
 <script src="lib/jquery.js"></script>
 <script src="lib/bootstrap.min.js"></script>
 <script src="lib/current.js"></script>
+<script src="lib/jquery.lazyload.js?v=1.9.1"></script>
+<script src="lib/shiv.js"></script>
 <script src="http://www.lanrenzhijia.com/ajaxjs/lanrenzhijia.js"></script>
 <script>
     $(document).ready(function () {
@@ -444,6 +446,11 @@
     });
     $(function (){
         $("[data-toggle='popover']").popover();
+    });
+    $(function() {
+
+        $("img.lazy").lazyload({effect: "fadeIn"});
+
     });
 </script>
 </html>
