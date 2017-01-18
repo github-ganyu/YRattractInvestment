@@ -1,4 +1,7 @@
 @charset "utf-8";
+.popover-content {
+    word-break: break-all;
+}
 .section-b{padding:50px 0;border:none;}
 .section-b .text h2{font-weight: 500;}
 .section-c{border:none;padding:0;}

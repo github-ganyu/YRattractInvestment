@@ -141,11 +141,11 @@
                 <span class="current mk col-xs-4">
                     <img src="style/img/simg1.png" class="hide"/>
                     <img src="style/img/s1.png" class="show"/>
-                     <button type="button" class="btn btn-warning" title="地区"
-                             data-container="body" data-toggle="popover" data-placement="left"
-                             data-content="50万加盟费用：上海、天津、广州、武汉、郑州、重庆、成都、七大城市。
-                                       30万加盟费用：各省市自治区。
-                                       20万加盟费用：各地区市。">
+                     <button id="custom" type="button" class="btn btn-warning" title="加盟费标准："
+                             data-container="body" data-html="true" data-toggle="popover" data-placement="left"
+                             data-content='上海、天津、广州、武汉、郑州、重庆、成都七大城市50万元;<br>
+                                       上述7大城市以外的省会城市30万元;<br>
+                                       其他城市20万元。'>
                     </button>
                      <button class="btn btn-warning" data-toggle="modal" data-target="#myModal"></button>
                 </span>
@@ -153,10 +153,10 @@
                     <img src="style/img/yuangong.png" class="show"/>
                     <img src="style/img/s2.png" class="hide"/>
                     <button type="button" class="btn btn-warning" title="人员配置"
-                            data-container="body" data-toggle="popover" data-placement="left"
-                            data-content="50万加盟费用：150个业务员、8个总部人员。
-                                      30万加盟费用：100个业务员、8个总部人员。
-                                      20万加盟费用：50个业务员、8个总部人员。">
+                            data-container="body" data-html="true" data-toggle="popover" data-placement="left"
+                            data-content="50万元加盟费的，分公司8人，业务员180人;<br>
+                                      30万元加盟费的，分公司8人，业务员100人;<br>
+                                      20万元加盟费的，分公司8人，业务员50人。">
                     </button>
                      <button class="btn btn-warning" data-toggle="modal" data-target="#myModal1"></button>
                 </span>
@@ -164,10 +164,10 @@
                     <img src="style/img/11.png" class="show"/>
                     <img src="style/img/s3.png" class="hide"/>
                     <button type="button" class="btn btn-warning" title="库房"
-                            data-container="body" data-toggle="popover" data-placement="left"
-                            data-content="50万加盟费用：30个分库，建立一个总库。
-                                      30万加盟费用：20个分库，建立一个总库。
-                                      20万加盟费用：10个分库，50个业务员，建立一个总库。">
+                            data-container="body" data-html="true" data-toggle="popover" data-placement="left"
+                            data-content=" 50万元加盟费的，设总库1个，分库30个；<br>
+                                       30万元加盟费的，设总库1个，分库20个；<br>
+                                       20万元加盟费的，设总库1个，分库10个。">
                     </button>
                      <button class="btn btn-warning" data-toggle="modal" data-target="#myModal2"></button>
                 </span>
@@ -175,10 +175,10 @@
                     <img src="style/img/22.png" class="show"/>
                     <img src="style/img/s4.png" class="hide"/>
                     <button type="button" class="btn btn-warning" title="送货车"
-                            data-container="body" data-toggle="popover" data-placement="left"
-                            data-content="50万加盟费用：购买120部电动送货车、租赁两部箱式送货车。
-                                      30万加盟费用：购买40部电动送货车、租赁两部箱式送货车。
-                                      20万加盟费用：购买40部电动送货车、租赁一部箱式送货车。">
+                            data-container="body" data-html="true" data-toggle="popover" data-placement="left"
+                            data-content=" 50万元加盟费的，买电动送货车120台，租箱式送货车2台；<br>
+                                       30万元加盟费的，买电动送货车80台，租箱式送货车2台；<br>
+                                       20万元加盟费的，买电动送货车40台，租箱式送货车1台。">
                     </button>
                      <button class="btn btn-warning" data-toggle="modal" data-target="#myModal3"></button>
                 </span>
@@ -197,12 +197,11 @@
                     <img src="style/img/55.png" class="show"/>
                     <img src="style/img/s6.png" class="hide"/>
                      <button type="button" class="btn btn-warning" title="利润"
-                             data-container="body" data-toggle="popover" data-placement="right"
-                             data-content="50万加盟费用：在半年内每月营业售货营业额达到750万，每月毛利润达112万。12个月内每月营业额达到1500万，每月毛利润达230万。您每月的全部成本仅为120万。您的进货货款（我们先行发货）我们元融总部替您承担。
-                                        第二年您的营业额可达1.8亿，您的毛利可达2700万，您的年成本1500万。您的含税利润将超1200万。
-                                       30万加盟费用：在半年内每月营业额可达500万元每月毛利可达75万，您的每月成本为63万，12个月内每月营业额可达1000万，每月毛利可达150万。您每月的全部成本还是63万。您的进货款（我们先行发货）我们元融总部承担。第二年您的营业额可达1.2亿，您的毛利可达1800万。
-                                         您的全年成本为756万，您的含税利润可达1000万。
-                                        20万加盟费用：在半年内每月营业额可达250万元每月毛利可达37.5万，12个月内每月营业额可达500万，每月毛利可达70万。您的每月成本仅为25万。您的进货款（我们先行发货）我们元融总部承担。第二年您的营业额可达6000万，您的毛利可达900万，您的全年成本为300万，您的含税利润可达近600万。">
+                             data-container="body" data-html="true" data-toggle="popover" data-placement="right"
+                             data-content='<p style="text-indent:2em;">50万加盟费用：您在半年内每月营业额可达750万，每月毛利润达到112万；12个月内每月营业额达到1500万，每月毛利润达到230万。您每月的全部成本仅为120万，且进货货款我们元融商业留有半个月的账期。 第二年您全年的营业额可达1.8亿，毛利可达2700万，全年成本1500万。您的含税利润将超过1200万。</p>
+                                       <p style="text-indent:2em;">30万加盟费用：您在半年内每月营业额可达750万，每月毛利润达到75万；12个月内每月营业额达到1000万，每月毛利润达到150万。您每月的全部成本仅为63万，且进货货款我们元融商业留有半个月的账期。 第二年您全年的营业额可达1.2亿，毛利可达1800万，全年成本756万。您的含税利润将超过1000万。</p>
+                                       <p style="text-indent:2em;">20万加盟费用：您在半年内每月营业额可达250万，每月毛利润达到37.5万；12个月内每月营业额达到500万，每月毛利润达到70万。您每月的全部成本仅为25万，且进货货款我们元融商业留有半个月的账期。 第二年您全年的营业额可达6000亿，毛利可达900万，全年成本300万。您的含税利润将超过600万。</p>'
+
                     </button>
                      <button class="btn btn-warning" data-toggle="modal" data-target="#myModal5"></button>
                 </span>
@@ -210,9 +209,9 @@
                     <img src="style/img/66.png" style="margin-left:-26px;" class="show"/>
                     <img src="style/img/s7.png" style="margin-left:-26px;" class="hide"/>
                      <button type="button" class="btn btn-warning" title="启动费用"
-                             data-container="body" data-toggle="popover" data-placement="right"
-                             data-content="50万加盟费用：启动费用仅为 30万元。
-                                       30万加盟费用：启动费用仅为20万元。
+                             data-container="body" data-html="true" data-toggle="popover" data-placement="right"
+                             data-content="50万加盟费用：启动费用仅为 30万元。<br>
+                                       30万加盟费用：启动费用仅为20万元。<br>
                                        20万加盟费用：启动费用仅为10万元。">
                     </button>
                 </span>
@@ -221,9 +220,7 @@
                     <img src="style/img/s8.png" style="margin-left:-22px;" class="hide"/>
                       <button type="button" class="btn btn-warning" title="终端"
                               data-container="body" data-toggle="popover" data-placement="right"
-                              data-content="50万加盟费用：我们将向您无偿提供价值60万的进销存、物流配送系统及终端APP软件。
-                                        30万加盟费用：我们将向您无偿提供价值60万的进销存、物流配送系统及终端APP软件。
-                                        20万加盟费用：我们将向您无偿提供价值60万的进销存、物流配送系统及终端APP软件。">
+                              data-content="我们将向您无偿提供价值60万的进销存、物流配送系统及终端APP软件。">
                     </button>
                 </span>
                 <div class="theme-popover-mask"></div>
@@ -231,12 +228,12 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h4 class="modal-title" id="myModalLabel">地区</h4>
+                                <h4 class="modal-title" id="myModalLabel">加盟费标准：</h4>
                             </div>
                             <div class="modal-body">
-                                50万加盟费用：上海、天津、广州、武汉、郑州、重庆、成都、七大城市。
-                                30万加盟费用：各省市自治区20万加盟费用：各地区市。
-                                20万加盟费用：各地区市。
+                                上海、天津、广州、武汉、郑州、重庆、成都七大城市50万元;<br>
+                                上述7大城市以外的省会城市30万元;<br>
+                                其他城市20万元。
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -252,9 +249,9 @@
                                 <h4 class="modal-title" id="myModalLabel">人员配置</h4>
                             </div>
                             <div class="modal-body">
-                                50万加盟费用：150个业务员、8个总部人员。
-                                30万加盟费用：100个业务员、8个总部人员。
-                                20万加盟费用：50个业务员、8个总部人员。
+                                50万元加盟费的，分公司8人，业务员180人;<br>
+                                30万元加盟费的，分公司8人，业务员100人;<br>
+                                20万元加盟费的，分公司8人，业务员50人。
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -270,9 +267,9 @@
                                 <h4 class="modal-title" id="myModalLabel">库房</h4>
                             </div>
                             <div class="modal-body">
-                                50万加盟费用：30个分库，建立一个总库。
-                                30万加盟费用：20个分库，建立一个总库。
-                                20万加盟费用：10个分库，50个业务员，建立一个总库。
+                                50万元加盟费的，设总库1个，分库30个；<br>
+                                30万元加盟费的，设总库1个，分库20个；<br>
+                                20万元加盟费的，设总库1个，分库10个。
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -288,9 +285,9 @@
                                 <h4 class="modal-title" id="myModalLabel">送货车</h4>
                             </div>
                             <div class="modal-body">
-                                50万加盟费用：购买120部电动送货车、租赁两部箱式送货车。
-                                30万加盟费用：购买40部电动送货车、租赁两部箱式送货车。
-                                20万加盟费用：购买40部电动送货车、租赁一部箱式送货车。
+                                50万元加盟费的，买电动送货车120台，租箱式送货车2台；<br>
+                                30万元加盟费的，买电动送货车80台，租箱式送货车2台；<br>
+                                20万元加盟费的，买电动送货车40台，租箱式送货车1台。
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -306,8 +303,8 @@
                                 <h4 class="modal-title" id="myModalLabel">会员店</h4>
                             </div>
                             <div class="modal-body">
-                                50万加盟费用：建立15000家会员店。
-                                30万加盟费用：建立10000家会员店。
+                                50万加盟费用：建立15000家会员店。<br>
+                                30万加盟费用：建立10000家会员店。<br>
                                 20万加盟费用：建立5000家会员店。
                             </div>
                             <div class="modal-footer">
@@ -323,15 +320,10 @@
                             <div class="modal-header">
                                 <h4 class="modal-title" id="myModalLabel">利润</h4>
                             </div>
-                            <div class="modal-body">
-                                50万加盟费用：在半年内每月营业售货营业额达到750万，每月毛利润达112万。12个月内每月营业额达到1500万，每月毛利润达230万。您每月的全部成本仅为120万。您的进货货款（我们先行发货）我们元融总部替您承担。
-                                第二年您的营业额可达1.8亿，您的毛利可达2700万，您的年成本1500万。您的含税利润将超1200万。
-                                30万加盟费用：在半年内每月营业额可达500万元每月毛利可达75万
-                                ，您的每月成本为63万，12个月内每月营业额可达1000万，每月毛利可达150万。您每月的全部成本还是63万。您的进货款（我们先行发货）我们元融总部承担。第二年您的营业额可达1.2亿，您的毛利可达1800万。
-                                您的全年成本为756万，您的含税利润可达1000万。
-                                20万加盟费用：
-                                在半年内每月营业额可达250万元每月毛利可达37.5万，12个月内每月营业额可达500万，每月毛利可达70万。您的每月成本仅为25万。您的进货款（我们先行发货）我们元融总部承担。第二年您的营业额可达6000万
-                                ，您的毛利可达900万，您的全年成本为300万，您的含税利润可达近600万。
+                            <div class="modal-body" style="text-indent: 2em;">
+                                50万加盟费用：您在半年内每月营业额可达750万，每月毛利润达到112万；12个月内每月营业额达到1500万，每月毛利润达到230万。您每月的全部成本仅为120万，且进货货款我们元融商业留有半个月的账期。 第二年您全年的营业额可达1.8亿，毛利可达2700万，全年成本1500万。您的含税利润将超过1200万。<br>
+                                <p style="font-size:14px;color:#444444;text-align: left;">30万加盟费用：您在半年内每月营业额可达750万，每月毛利润达到75万；12个月内每月营业额达到1000万，每月毛利润达到150万。您每月的全部成本仅为63万，且进货货款我们元融商业留有半个月的账期。 第二年您全年的营业额可达1.2亿，毛利可达1800万，全年成本756万。您的含税利润将超过1000万。</p>
+                                <p style="font-size:14px;color:#444444;text-align: left;">20万加盟费用：您在半年内每月营业额可达250万，每月毛利润达到37.5万；12个月内每月营业额达到500万，每月毛利润达到70万。您每月的全部成本仅为25万，且进货货款我们元融商业留有半个月的账期。 第二年您全年的营业额可达6000亿，毛利可达900万，全年成本300万。您的含税利润将超过600万。</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -398,7 +390,7 @@
                         <p>面谈</p>
                     </div>
                     <div class="col-md-1">
-                        <p>选店并签署意向书</p>
+                        <p>签约</p>
                     </div>
                     <div class="col-md-1">
                         <p>培训</p>
