@@ -55,8 +55,8 @@ article.banner{padding-top:70px;}
 .section .content .text{font-size:16px;text-indent: 2em;line-height: 2.5;color:#444444;text-align: left;font-weight: bold;}
 .section .content .text span{font-weight: 500;}
 .section .title_icon{padding:62px 0;}
-.section .title_icon .title-top{border-bottom: 1px solid #cccccc;padding-bottom: 20px;position: relative;padding-left:50px;padding-right: 50px;}
-.section .title_icon .title-bottom{padding-top: 20px;position: relative;padding-left:50px;padding-right: 50px;}
+.section .title_icon .title-top{border-bottom: 1px solid #cccccc;padding-bottom: 20px;position: relative;padding-left:8px;padding-right: 12px;}
+.section .title_icon .title-bottom{padding-top: 20px;position: relative;padding-left:19px;}
 .section .title_icon .title-top div p,.section .title_icon .title-bottom div p {font-size:16px;color:#444444;padding:0;}
 .section .title_icon .title-top .row div img:first-child,.section .title_icon .title-bottom .row div img:first-child{position: absolute;left:40%;}
 .section .title_icon .title-top div p:nth-child(2n+1){font-size:14px;color:#999999;text-align: center;}
