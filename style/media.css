@@ -1,4 +1,7 @@
 @charset "utf-8";
+@media(max-width: 1440px){
+    .section-a .circular{margin-top:-13%;}
+}
 @media (max-width: 640px) {
     .section .content p:first-child{font-size:14px;}
     .section .title_icon{background: url("../style/img/liucheng.png")no-repeat;background-size: cover;}
@@ -35,7 +38,9 @@
     .section-a .circular-out span:nth-child(3),
     .section-a .circular-out span:nth-child(4),
     .section-a .circular-out span:nth-child(5),
-    .section-a .circular-out span:nth-child(6){margin-left:4%;}
+    .section-a .circular-out span:nth-child(6){width: 85px;height:85px;margin-left:7%;}
+    .section-a .circular-out span img{margin:22px 5px;width:80%;}
+    .section-a .circular-out span:nth-child(2) img{width:90%;}
     .footer .row .col-md-6 .number1{padding-right:50px;}
 }
 @media (max-width: 360px) {
@@ -44,7 +49,7 @@
     .section-a .circular-out span:nth-child(3),
     .section-a .circular-out span:nth-child(4),
     .section-a .circular-out span:nth-child(5),
-    .section-a .circular-out span:nth-child(6){margin-left: 3%;}
+    .section-a .circular-out span:nth-child(6){margin-left: 6%;}
     .section-a .circular{padding:0;padding-top: 20px;}
     .section-a .circular .circular-inner p{margin:0;margin-top:20px;}
     .section-a .circular-out span:first-child, .section-a .circular-out span:nth-child(2), .section-a .circular-out span:nth-child(3){margin-top: 33%;}
@@ -56,7 +61,7 @@
     .section-a .circular-out span:nth-child(3),
     .section-a .circular-out span:nth-child(4),
     .section-a .circular-out span:nth-child(5),
-    .section-a .circular-out span:nth-child(6){margin-left:1.5%;margin-right:0;padding-top:-10px;}
+    .section-a .circular-out span:nth-child(6){margin-left:5%;margin-right:0;padding-top:-10px;}
     .section-a .circular-out span:first-child,
     .section-a .circular-out span:nth-child(2),
     .section-a .circular-out span:nth-child(3){margin-top:37%;}

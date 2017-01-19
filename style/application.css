@@ -1,10 +1,14 @@
 @charset "utf-8";
+.popover-content {
+    word-break: break-all;
+}
 .section-b{padding:50px 0;border:none;}
 .section-b .text h2{font-weight: 500;}
 .section-c{border:none;padding:0;}
 .section-a .background-img{background: #eeeeee;margin-top:-1px;position: relative;min-height: 900px;padding:0;}
 .section-a .circular{width:500px;height:500px;background: #ffffff;position: absolute;left:50%;top:50%;
     margin-top:-10%;margin-left:-250px;border:10px solid #e5e5e5;border-radius: 50%;box-sizing: content-box;padding:25px;}
+.section-a .circular{[;margin-top:-20%;]}
 .section-a .circular .circular-inner img{position: absolute;left:50%;margin-left:-50px;top:15%;}
 .section-a .circular .circular-inner img:last-child{position: absolute;left:50%;margin-left:-112px;top:72%;}
 .section-a .circular .circular-inner h1{position: absolute;left:50%;margin-left:-64px;top:40%;}
@@ -27,13 +31,22 @@
 .section .content p:first-child{font-size:16px;color:#444444;padding-bottom: 7px;font-weight: 500;}
 .section .content p:last-child{font-size:14px;}
 .section .title_icon .title-top{border:none;}
-.section .title_icon .title-top .row div img:first-child, .section .title_icon .title-bottom .row div img:first-child{position:absolute;top:-55px;left:42%;}
-.section .title_icon .title-top .row .col-md-1,.section .title_icon .title-bottom .row .col-md-1{width:12.333333%;}
-.section .title_icon .title-top .row .six{left:-3%;}
-.section .title_icon .title-bottom .row div p{font-size:14px;position: relative;left:9%;}
-.section .title_icon .title-bottom .row .a{position: absolute;left:25%;}
-.section .title_icon .title-bottom .row .b{position: absolute;left:43%;}
-.section .title_icon .title-bottom .row .c{position: relative;left:12%;}
+.section .title_icon .title-top .row div img:first-child,.section .title_icon .title-bottom .row div img:first-child{position:absolute;top:-55px;}
+.section .title_icon .title-top .row div img:first-child{left:14rem;}
+.section .title_icon .title-top .row div:nth-child(2) img{left:12rem;}
+.section .title_icon .title-top .row div:nth-child(3) img{left:77%;}
+.section .title_icon .title-top .row div:nth-child(4) img{left:63%;}
+.section .title_icon .title-top .row div:nth-child(5) img{left:41%;}
+.section .title_icon .title-top .row div:nth-child(6) img{left:23%;}
+.section .title_icon .title-top .row div:nth-child(7) img{left:0;}
+.section .title_icon .title-top .row .col-md-1,.section .title_icon .title-bottom .row .col-md-1{width:13.333333%;}
+.section .title_icon .title-bottom .row div p{font-size:14px;position: relative;}
+.section .title_icon .title-bottom .row div:first-child p:first-child{left:9rem;}
+.section .title_icon .title-bottom .row div:nth-child(2) p{left:6rem;}
+.section .title_icon .title-bottom .row div:nth-child(3) p{left:4rem;}
+.section .title_icon .title-bottom .row div:nth-child(4) p{left:2rem;}
+.section .title_icon .title-bottom .row div:nth-child(6) p{left:-2rem;}
+.section .title_icon .title-bottom .row div:nth-child(7) p{left:-53px;}
 .section-problem{border:none;}
 .section-problem .content p,.section-problem .content p:first-child{text-align: justify;font-size:14px;color:#444444;}
 
