@@ -1,6 +1,7 @@
 @charset "utf-8";
 .section-b .text ul li{padding-top:30px;}
 .section-b .container div:last-child{padding-bottom: 150px;}
+.display{color:#1b6d85;margin-right:10px;cursor: pointer;text-align: right;}
 @media (max-width: 640px) {
     .section-b .container div:last-child{padding-bottom:30px;}
 }
