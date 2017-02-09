@@ -344,7 +344,7 @@
     </div>
 </footer>
 </body>
-<script src="lib/jquery-1.11.0.min.js"></script>
+<script src="lib/jquery.js"></script>
 <script src="lib/bootstrap.min.js"></script>
 <script src="lib/current.js"></script>
 <script src="lib/jquery.lazyload.js?v=1.9.1"></script>
@@ -352,4 +352,12 @@
 <script src="http://www.lanrenzhijia.com/ajaxjs/lanrenzhijia.js"></script>
 <script src="lib/animatescroll.js"></script>
 <script src="lib/public.js"></script>
+<script>
+    myEvent(window,'load',function(){
+        cs_box.set({
+            img_path : 'http://demo.lanrenzhijia.com/2014/service1119/images/lanrenzhijia.jpg',	//设置图片路径
+            qq : '123456789',	//设置QQ号码
+        });
+    });
+</script>
 </html>
