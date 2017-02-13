@@ -45,10 +45,11 @@
 .section .title_icon .title-top .row div:nth-child(7) img{left:0;}
 .section .title_icon .title-top .row .col-md-1,.section .title_icon .title-bottom .row .col-md-1{width:13.333333%;}
 .section .title_icon .title-bottom .row div p{font-size:14px;position: relative;}
-.section .title_icon .title-bottom .row div:first-child p:first-child{left:9rem;}
-.section .title_icon .title-bottom .row div:nth-child(2) p{left:6rem;}
-.section .title_icon .title-bottom .row div:nth-child(3) p{left:4rem;}
-.section .title_icon .title-bottom .row div:nth-child(4) p{left:2rem;}
+.section .title_icon .title-bottom .row div:first-child p:first-child{left:10rem;}
+.section .title_icon .title-bottom .row div:nth-child(2) p{left:8rem;}
+.section .title_icon .title-bottom .row div:nth-child(3) p{left:5rem;}
+.section .title_icon .title-bottom .row div:nth-child(4) p{left:3rem;}
+.section .title_icon .title-bottom .row div:nth-child(5) p{left:1rem;}
 .section .title_icon .title-bottom .row div:nth-child(6) p{left:-2rem;}
 .section .title_icon .title-bottom .row div:nth-child(7) p{left:-53px;}
 .section-problem{border:none;}
