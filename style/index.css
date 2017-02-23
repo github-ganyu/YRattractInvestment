@@ -104,7 +104,7 @@ article.banner{padding-top:70px;}
 
 .footer{padding:70px 0;background: #eeeeee;}
 .footer .row .col-md-6 h3{padding-bottom: 20px;}
-.footer .row .col-md-6 h2{display: inline-block;vertical-align: middle;margin-left:20px;margin-top:5px;padding-bottom: 20px;}
+.footer .row .col-md-6 h2{display: inline-block;vertical-align: middle;margin-left:20px;margin-top:5px;padding-bottom: 20px;font-size:25px;}
 .footer .row .col-md-6 h2 span{margin-left:50px;margin-top:20px;}
 .footer .row .col-md-6 img{padding-bottom: 20px;}
 .footer .row .col-md-6 p{font-size:16px;color:#666666;padding-top:20px;}
@@ -136,7 +136,7 @@ article.banner{padding-top:70px;}
     .title{display: block;position: relative;top:-34px;text-align: center;}
     .topnav .nav{padding:0;margin-top:20px;}
     .section .content .text{font-size:1.5rem;}
-    .section .title_icon{padding:64px 0;}
+    .section .title_icon{padding:70px 0;}
     .section p, .section-a p, .section-c p, .section-d p{padding-bottom:7px;}
     .section-a .background-img{background:url("../style/img/black.png")no-repeat center center;background-size:100%;min-height:240px;}
     .section-a{padding-bottom: 10px;}
@@ -155,9 +155,9 @@ article.banner{padding-top:70px;}
     .footer .row .col-md-6 .number1{float:right;}
     .footer .row .col-md-6 .number,.footer .row .col-md-6 .number1{padding-top:0;}
     .footer .row .col-md-6 .number{padding-left:55px;}
+    .footer .row .col-md-6 img{width:40px;}
 }
 @media (max-width: 375px) {
-    .section .title_icon{padding:57px 0;}
     .section-c .row .col-md-4{padding:0;}
     .topnav .navbar-collapse{padding:0;}
     .topnav .navbar-brand h2{left:10rem;}
@@ -181,7 +181,6 @@ article.banner{padding-top:70px;}
     #cs_box {width:285px;}
     .topnav .navbar-brand h2{font-size: 2rem;}
     .topnav .navbar-right a{margin:0 -3px;}
-    .section .title_icon{padding:49px 0;}
     .section-c .row{padding:0;}
     .section-c .row .col-md-4 .quote, .section-c .row .col-md-4 .clientsphoto{margin-left:11px;}
     .footer .row .col-md-6 span img{margin-left:11px;}
