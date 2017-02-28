@@ -36,18 +36,115 @@ img{max-width: 100%;}
 .topnav .navbar-right a{display: inline-block;font-size:13px;color:#ffffff;background: #999999;height:34px;line-height:15px;padding:10px;margin:0 5px;}
 .topnav #nav_right .current{background: #f7cd13;}
 /*question*/
-#cs_box {width:422px; height:220px; color:#FFF; background:#f7cd14; position:fixed; right:10px; top:100px;border-radius:10px; z-index:1000}
-#cs_box span {height:36px; line-height:36px;display:block;text-align: center;}
-.cs_close {color:#FFF; position:absolute; right:10px; top:8px; cursor:pointer; font-size:16px;font-family:Verdana, Geneva, sans-serif}
-.cs_title {font-size:20px; margin:10px;color:#FFFFFF;}
-.cs_img {width:422px; height:164px; background:#FFF; margin:0;border-radius: 4px;position: relative;padding-top:10px;}
-.cs_img p{font-size:16px;color:#888;text-align: center;padding-top: 10px;}
-.cs_img img{position: absolute;top:-15px;left:-15%;}
-.cs_info {font-size:12px; margin:0px 10px; overflow:hidden; text-align:center;}
-.cs_btn {width:150px; height:35px; background:#f7cd14;
-    margin:5px 10px; border-radius:5px; font-size:15px; line-height:35px; color:#FFF; text-align:center; cursor:pointer;
-    position: absolute;left:50%;margin-left:-75px;top:50%;margin-top:15px;}
+/*#cs_box {width:422px; height:220px; color:#FFF; background:#f7cd14; position:fixed; right:10px; top:100px;border-radius:10px; z-index:1000}*/
+/*#cs_box span {height:36px; line-height:36px;display:block;text-align: center;}*/
+/*.cs_close {color:#FFF; position:absolute; right:10px; top:8px; cursor:pointer; font-size:16px;font-family:Verdana, Geneva, sans-serif}*/
+/*.cs_title {font-size:20px; margin:10px;color:#FFFFFF;}*/
+/*.cs_img {width:422px; height:164px; background:#FFF; margin:0;border-radius: 4px;position: relative;padding-top:10px;}*/
+/*.cs_img p{font-size:16px;color:#888;text-align: center;padding-top: 10px;}*/
+/*.cs_info {font-size:12px; margin:0 10px; overflow:hidden; text-align:center;}*/
+/*.cs_btn {width:150px; height:35px; background:#f7cd14;*/
+    /*margin:5px 10px; border-radius:5px; font-size:15px; line-height:35px; color:#FFF; text-align:center; cursor:pointer;*/
+    /*position: absolute;left:50%;margin-left:-75px;top:50%;margin-top:15px;}*/
+#cs_box {width:120px; height:220px; background:#f7cd13; position:fixed; right:10px; top:100px; border-radius:10px; z-index:1000}
+#cs_box span {color:#fff; height:20px; line-height:20px; display:block;}
+.cs_close {position:absolute; right:10px; top:10px; cursor:pointer; font-size:12px;}
+.cs_title {font-size:14px; margin:10px;}
+.cs_img {width:100px; height:100px; background:#f7cd13; margin:10px;}
+.cs_img img{ -webkit-animation:swinging 10s ease-in-out 0s infinite;
+    -moz-animation:swinging 10s ease-in-out 10s infinite;
+    animation:swinging 10s ease-in-out 10s infinite;
+    -webkit-transform-origin:50% 0;
+    -moz-transform-origin:50% 0;
+    transform-origin:50% 0;
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;quot;}
+.cs_info {font-size:12px; margin:0 10px; overflow:hidden; text-align:center;}
+@-webkit-keyframes swinging{
+    0% { -webkit-transform: rotate(0); }
+    5% { -webkit-transform: rotate(10deg); }
+    10% { -webkit-transform: rotate(-9deg); }
+    15% { -webkit-transform: rotate(8deg); }
+    20% { -webkit-transform: rotate(-7deg); }
+    25% { -webkit-transform: rotate(6deg); }
+    30% { -webkit-transform: rotate(-5deg); }
+    35% { -webkit-transform: rotate(4deg); }
+    40% { -webkit-transform: rotate(-3deg); }
+    45% { -webkit-transform: rotate(2deg); }
+    50% { -webkit-transform: rotate(0); } /* Come to rest at 50%. The rest is just stillness */
+    100% { -webkit-transform: rotate(0); }
+}
 
+@-moz-keyframes swinging{
+    0% { -moz-transform: rotate(0); }
+    5% { -moz-transform: rotate(10deg); }
+    10% { -moz-transform: rotate(-9deg); }
+    15% { -moz-transform: rotate(8deg); }
+    20% { -moz-transform: rotate(-7deg); }
+    25% { -moz-transform: rotate(6deg); }
+    30% { -moz-transform: rotate(-5deg); }
+    35% { -moz-transform: rotate(4deg); }
+    40% { -moz-transform: rotate(-3deg); }
+    45% { -moz-transform: rotate(2deg); }
+    50% { -moz-transform: rotate(0); } /* Come to rest at 50%. The rest is just stillness */
+    100% { -moz-transform: rotate(0); }
+}
+
+@keyframes swinging{
+    0% { transform: rotate(0); }
+    5% { transform: rotate(10deg); }
+    10% { transform: rotate(-9deg); }
+    15% { transform: rotate(8deg); }
+    20% { transform: rotate(-7deg); }
+    25% { transform: rotate(6deg); }
+    30% { transform: rotate(-5deg); }
+    35% { transform: rotate(4deg); }
+    40% { transform: rotate(-3deg); }
+    45% { transform: rotate(2deg); }
+    50% { transform: rotate(0); } /* Come to rest at 50%. The rest is just stillness */
+    100% { transform: rotate(0); }
+}
+
+.cs_btn {width:100px; height:25px; background:#333; margin:5px 10px; border-radius:5px; font-size:12px; line-height:25px; color:#fff; text-align:center; cursor:pointer;
+    animation: myfirst 5s ease-in-out 0s infinite;
+    -moz-animation: myfirst 5s ease-in-out 0s infinite;	/* Firefox */
+    -webkit-animation: myfirst 5s ease-in-out 0s infinite;	/* Safari 和 Chrome */
+    -o-animation: myfirst 5s ease-in-out 0s infinite;	/* Opera */}
+@keyframes myfirst
+{
+    0% { background: #986767; }
+    5% { background: #1b4605; }
+    10% { background: #053d46; }
+    15% { background: #050d46; }
+    20% { background: #240546; }
+    25% { background: #69076b; }
+    30% { background: #6b0735; }
+    35% { background: #1174ca; }
+    40% { background: #986767; }
+    45% { background: #730b08; }
+    50% { background: #84570a; } /* Come to rest at 50%. The rest is just stillness */
+    100% { background:#389810; }
+
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    from {background: red;}
+    to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    from {background: red;}
+    to {background: yellow;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    from {background: red;}
+    to {background: yellow;}
+}
 /*section*/
 article.banner{padding-top:70px;}
 .section{padding:40px 0;}
